@@ -358,7 +358,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "NLog.Web.AspNetCore"
+      "NLog.Web.AspNetCore >= 4.9.3"
     ]
   },
   "packageFolders": {
@@ -398,7 +398,7 @@
         "dependencies": {
           "NLog.Web.AspNetCore": {
             "target": "Package",
-            "version": "(, )"
+            "version": "[4.9.3, )"
           }
         },
         "imports": [

@@ -38,7 +38,7 @@
           "dependencies": {
             "NLog.Web.AspNetCore": {
               "target": "Package",
-              "version": "(, )"
+              "version": "[4.9.3, )"
             }
           },
           "imports": [

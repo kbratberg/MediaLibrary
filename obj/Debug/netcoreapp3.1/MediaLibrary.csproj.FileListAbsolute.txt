@@ -9,3 +9,7 @@ C:\Users\kateb\OneDrive\Desktop\MediaLibrary\obj\Debug\netcoreapp3.1\MediaLibrar
 C:\Users\kateb\OneDrive\Desktop\MediaLibrary\obj\Debug\netcoreapp3.1\MediaLibrary.AssemblyInfo.cs
 C:\Users\kateb\OneDrive\Desktop\MediaLibrary\obj\Debug\netcoreapp3.1\MediaLibrary.dll
 C:\Users\kateb\OneDrive\Desktop\MediaLibrary\obj\Debug\netcoreapp3.1\MediaLibrary.pdb
+C:\Users\kateb\OneDrive\Desktop\MediaLibrary\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Users\kateb\OneDrive\Desktop\MediaLibrary\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+C:\Users\kateb\OneDrive\Desktop\MediaLibrary\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+C:\Users\kateb\OneDrive\Desktop\MediaLibrary\obj\Debug\netcoreapp3.1\MediaLibrary.csproj.CopyComplete
