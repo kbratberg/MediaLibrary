@@ -10,3 +10,12 @@
 2020-09-30 18:43:39.5780|INFO|MediaLibrary.Program|Program ended
 2020-09-30 18:45:21.8506|INFO|MediaLibrary.Program|Program started
 2020-09-30 18:45:21.9450|INFO|MediaLibrary.Program|Program ended
+2020-09-30 18:54:50.2241|INFO|MediaLibrary.Program|Program started
+2020-09-30 18:54:50.4608|INFO|MediaLibrary.FileScrubber|File scrub started
+2020-09-30 18:54:50.4763|ERROR|MediaLibrary.FileScrubber|Could not find file 'C:\Users\kateb\OneDrive\Desktop\MediaLibrary\movies.csv'.
+2020-09-30 18:54:50.4763|INFO|MediaLibrary.Program|
+2020-09-30 18:54:50.5107|INFO|MediaLibrary.Program|Program ended
+2020-09-30 18:59:14.5160|INFO|MediaLibrary.Program|Program started
+2020-09-30 18:59:14.6441|INFO|MediaLibrary.FileScrubber|File already scrubbed
+2020-09-30 18:59:14.6441|INFO|MediaLibrary.Program|movies.scrubbed.csv
+2020-09-30 18:59:14.6500|INFO|MediaLibrary.Program|Program ended
