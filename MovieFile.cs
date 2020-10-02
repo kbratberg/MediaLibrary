@@ -42,9 +42,9 @@ namespace MediaLibrary
                         string[] movieDetails = line.Split(',');
                         movie.mediaId = UInt64.Parse(movieDetails[0]);
                         movie.title = movieDetails[1];
-                        movie.director = movieDetails[2];
-                        movie.runningTime = TimeSpan.Parse(movieDetails[3]);
-                        movie.genres = movieDetails[4].Split('|').ToList();
+                        movie.genres = movieDetails[2].Split('|').ToList();
+                        movie.director = movieDetails[3];
+                        movie.runningTime = TimeSpan.Parse(movieDetails[4]);
                     }
                     else
                     {
@@ -52,8 +52,6 @@ namespace MediaLibrary
                         // extract the movieId
                         movie.mediaId = UInt64.Parse(line.Substring(0, cIdx));
                         // remove movieId and first quote from string
-                        movie.director = line.Substring(1, cIdx);
-                        movie.runningTime = TimeSpan.Parse(line.Substring(1, cIdx));
                         line = line.Substring(qIdx + 1);
                         // find the next quote
                         qIdx = line.IndexOf('"');
@@ -62,7 +60,10 @@ namespace MediaLibrary
                         // remove title and last comma from the string
                         line = line.Substring(qIdx + 2);
                         // replace the "|" with ", "
-                        movie.genres = line.Split('|').ToList();
+                        string genre = line.Substring(0, cIdx);
+                        movie.genres = genre.Split('|').ToList();
+                        movie.director = line.Substring(1, cIdx);
+                        movie.runningTime = TimeSpan.Parse(line.Substring(1, cIdx));
                     }
                     Movies.Add(movie);
                 }
