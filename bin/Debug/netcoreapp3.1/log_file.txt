@@ -24,3 +24,90 @@
 2020-10-02 14:54:39.8791|INFO|MediaLibrary.FileScrubber|File scrub ended
 2020-10-02 14:54:39.8791|INFO|MediaLibrary.Program|movies.scrubbed.csv
 2020-10-02 14:54:39.8836|INFO|MediaLibrary.Program|Program ended
+2020-10-02 15:27:21.0299|INFO|MediaLibrary.Program|Program started
+2020-10-02 15:27:21.0894|ERROR|MediaLibrary.MovieFile|String 'om' was not recognized as a valid TimeSpan.
+2020-10-02 15:27:24.1993|INFO|MediaLibrary.Program|User choice: "2"
+2020-10-02 15:36:06.8973|INFO|MediaLibrary.Program|User choice: ""
+2020-10-02 15:36:06.8973|INFO|MediaLibrary.FileScrubber|File already scrubbed
+2020-10-02 15:36:06.8973|INFO|MediaLibrary.Program|movies.scrubbed.csv
+2020-10-02 15:36:06.9135|INFO|MediaLibrary.Program|Program ended
+2020-10-02 15:36:16.8358|INFO|MediaLibrary.Program|Program started
+2020-10-02 15:36:16.9019|ERROR|MediaLibrary.MovieFile|String '|D' was not recognized as a valid TimeSpan.
+2020-10-02 15:36:17.8803|INFO|MediaLibrary.Program|User choice: "2"
+2020-10-02 15:44:07.6417|INFO|MediaLibrary.Program|User choice: ""
+2020-10-02 15:44:07.6534|INFO|MediaLibrary.FileScrubber|File already scrubbed
+2020-10-02 15:44:07.6534|INFO|MediaLibrary.Program|movies.scrubbed.csv
+2020-10-02 15:44:07.6534|INFO|MediaLibrary.Program|Program ended
+2020-10-02 15:44:18.4205|INFO|MediaLibrary.Program|Program started
+2020-10-02 15:44:18.4904|ERROR|MediaLibrary.MovieFile|String 'unassigned,00:00:00' was not recognized as a valid TimeSpan.
+2020-10-02 15:44:19.9287|INFO|MediaLibrary.Program|User choice: "2"
+2020-10-02 15:46:07.3880|INFO|MediaLibrary.Program|User choice: ""
+2020-10-02 15:46:07.3880|INFO|MediaLibrary.FileScrubber|File already scrubbed
+2020-10-02 15:46:07.4006|INFO|MediaLibrary.Program|movies.scrubbed.csv
+2020-10-02 15:46:07.4006|INFO|MediaLibrary.Program|Program ended
+2020-10-02 15:46:13.3575|INFO|MediaLibrary.Program|Program started
+2020-10-02 15:46:13.4372|ERROR|MediaLibrary.MovieFile|Length cannot be less than zero. (Parameter 'length')
+2020-10-02 15:46:15.3864|INFO|MediaLibrary.Program|User choice: "2"
+2020-10-02 15:48:01.1099|INFO|MediaLibrary.Program|User choice: ""
+2020-10-02 15:48:01.1207|INFO|MediaLibrary.FileScrubber|File already scrubbed
+2020-10-02 15:48:01.1207|INFO|MediaLibrary.Program|movies.scrubbed.csv
+2020-10-02 15:48:01.1207|INFO|MediaLibrary.Program|Program ended
+2020-10-02 15:48:06.9863|INFO|MediaLibrary.Program|Program started
+2020-10-02 15:48:07.0779|ERROR|MediaLibrary.MovieFile|Length cannot be less than zero. (Parameter 'length')
+2020-10-02 15:51:05.8836|INFO|MediaLibrary.Program|User choice: ""
+2020-10-02 15:51:05.9192|INFO|MediaLibrary.FileScrubber|File already scrubbed
+2020-10-02 15:51:05.9192|INFO|MediaLibrary.Program|movies.scrubbed.csv
+2020-10-02 15:51:05.9315|INFO|MediaLibrary.Program|Program ended
+2020-10-02 15:51:15.1511|INFO|MediaLibrary.Program|Program started
+2020-10-02 15:51:15.2267|ERROR|MediaLibrary.MovieFile|Length cannot be less than zero. (Parameter 'length')
+2020-10-02 15:51:16.8868|INFO|MediaLibrary.Program|User choice: "2"
+2020-10-02 15:55:37.9172|INFO|MediaLibrary.Program|User choice: ""
+2020-10-02 15:55:37.9172|INFO|MediaLibrary.FileScrubber|File already scrubbed
+2020-10-02 15:55:37.9290|INFO|MediaLibrary.Program|movies.scrubbed.csv
+2020-10-02 15:55:37.9290|INFO|MediaLibrary.Program|Program ended
+2020-10-02 15:55:55.1643|INFO|MediaLibrary.Program|Program started
+2020-10-02 15:56:25.9603|ERROR|MediaLibrary.MovieFile|String '' was not recognized as a valid TimeSpan.
+2020-10-02 15:57:27.1491|INFO|MediaLibrary.Program|User choice: ""
+2020-10-02 15:57:27.1797|INFO|MediaLibrary.FileScrubber|File already scrubbed
+2020-10-02 15:57:27.1797|INFO|MediaLibrary.Program|movies.scrubbed.csv
+2020-10-02 15:57:27.1797|INFO|MediaLibrary.Program|Program ended
+2020-10-02 16:01:26.3587|INFO|MediaLibrary.Program|Program started
+2020-10-02 16:01:41.9489|ERROR|MediaLibrary.MovieFile|String '' was not recognized as a valid TimeSpan.
+2020-10-02 16:01:56.5454|INFO|MediaLibrary.Program|User choice: "2"
+2020-10-02 16:06:35.2147|INFO|MediaLibrary.Program|User choice: ""
+2020-10-02 16:06:35.2275|INFO|MediaLibrary.FileScrubber|File already scrubbed
+2020-10-02 16:06:35.2275|INFO|MediaLibrary.Program|movies.scrubbed.csv
+2020-10-02 16:06:35.2275|INFO|MediaLibrary.Program|Program ended
+2020-10-02 16:06:48.7284|INFO|MediaLibrary.Program|Program started
+2020-10-02 16:06:52.3497|ERROR|MediaLibrary.MovieFile|String '' was not recognized as a valid TimeSpan.
+2020-10-02 16:07:22.5657|INFO|MediaLibrary.Program|User choice: ""
+2020-10-02 16:07:22.5934|INFO|MediaLibrary.FileScrubber|File already scrubbed
+2020-10-02 16:07:22.6024|INFO|MediaLibrary.Program|movies.scrubbed.csv
+2020-10-02 16:07:22.6024|INFO|MediaLibrary.Program|Program ended
+2020-10-02 16:07:47.1248|INFO|MediaLibrary.Program|Program started
+2020-10-02 16:07:47.2010|INFO|MediaLibrary.MovieFile|Movies in file 9128
+2020-10-02 16:07:55.4929|INFO|MediaLibrary.Program|User choice: "2"
+2020-10-03 13:03:23.1146|INFO|MediaLibrary.Program|User choice: "2"
+2020-10-03 13:07:00.7925|INFO|MediaLibrary.Program|User choice: ""
+2020-10-03 13:07:00.8091|INFO|MediaLibrary.FileScrubber|File already scrubbed
+2020-10-03 13:07:00.8091|INFO|MediaLibrary.Program|movies.scrubbed.csv
+2020-10-03 13:07:00.8091|INFO|MediaLibrary.Program|Program ended
+2020-10-03 13:07:14.5816|INFO|MediaLibrary.Program|Program started
+2020-10-03 13:07:14.6625|INFO|MediaLibrary.MovieFile|Movies in file 9128
+2020-10-03 13:07:16.8984|INFO|MediaLibrary.Program|User choice: "2"
+2020-10-03 13:10:30.2406|INFO|MediaLibrary.Program|Program started
+2020-10-03 13:12:26.7372|ERROR|MediaLibrary.MovieFile|String '' was not recognized as a valid TimeSpan.
+2020-10-03 13:12:28.6188|INFO|MediaLibrary.Program|User choice: ""
+2020-10-03 13:12:28.6451|INFO|MediaLibrary.FileScrubber|File already scrubbed
+2020-10-03 13:12:28.6517|INFO|MediaLibrary.Program|movies.scrubbed.csv
+2020-10-03 13:12:28.6517|INFO|MediaLibrary.Program|Program ended
+2020-10-03 13:12:41.7913|INFO|MediaLibrary.Program|Program started
+2020-10-03 13:12:41.8727|ERROR|MediaLibrary.MovieFile|String '12,Dracula: Dead and Loving It (1995),Comedy|Horror,unassigned,00:00:00' was not recognized as a valid TimeSpan.
+2020-10-03 13:12:44.0308|INFO|MediaLibrary.Program|User choice: "2"
+2020-10-03 13:13:47.5503|INFO|MediaLibrary.Program|User choice: ""
+2020-10-03 13:13:47.5635|INFO|MediaLibrary.FileScrubber|File already scrubbed
+2020-10-03 13:13:47.5635|INFO|MediaLibrary.Program|movies.scrubbed.csv
+2020-10-03 13:13:47.5691|INFO|MediaLibrary.Program|Program ended
+2020-10-03 13:13:53.0913|INFO|MediaLibrary.Program|Program started
+2020-10-03 13:13:53.1870|ERROR|MediaLibrary.MovieFile|String 'unassigned,00:00:00' was not recognized as a valid TimeSpan.
+2020-10-03 13:13:55.5484|INFO|MediaLibrary.Program|User choice: "2"
