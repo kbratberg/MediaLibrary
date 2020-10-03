@@ -54,7 +54,7 @@ namespace MediaLibrary
                         // remove movieId and first quote from string
                         line = line.Substring(qIdx + 1);
                         // find the next quote
-                        qIdx = line.IndexOf('"');
+                        qIdx = line.LastIndexOf('"');
                         // extract the movieTitle
                         movie.title = line.Substring(0, qIdx);
                         // remove title and last comma from the string
@@ -63,10 +63,13 @@ namespace MediaLibrary
                         String genre = line.Substring(0, cIdx);
                         // replace the "|" with ", "
                         movie.genres = genre.Split('|').ToList();
+                        // remove genre and comma
                         line = line.Substring(cIdx + 1);
                          cIdx = line.IndexOf(",");
+                         //extract director
                          movie.director = line.Substring(0, cIdx);
                          line = line.Substring(cIdx + 1);
+                         //extract running time
                          movie.runningTime = TimeSpan.Parse(line.Substring(0, line.Length));
                      }
                     Movies.Add(movie);
@@ -98,11 +101,12 @@ namespace MediaLibrary
                 // first generate movie id
                 movie.mediaId = Movies.Max(m => m.mediaId) + 1;
                 StreamWriter sw = new StreamWriter(filePath, true);
-                sw.WriteLine($"{movie.mediaId},{movie.title},{movie.director},{movie.runningTime},{string.Join("|", movie.genres)}");
+                sw.WriteLine($"{movie.mediaId},{movie.title},{string.Join("|", movie.genres)},{movie.director},{movie.runningTime}");
                 sw.Close();
                 // add movie details to Lists
                 Movies.Add(movie);
                 // log transaction
+               
                 logger.Info("Movie id {Id} added", movie.mediaId);
             } 
             catch(Exception ex)

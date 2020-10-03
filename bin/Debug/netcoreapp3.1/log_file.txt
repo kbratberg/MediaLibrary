@@ -111,3 +111,58 @@
 2020-10-03 13:13:53.0913|INFO|MediaLibrary.Program|Program started
 2020-10-03 13:13:53.1870|ERROR|MediaLibrary.MovieFile|String 'unassigned,00:00:00' was not recognized as a valid TimeSpan.
 2020-10-03 13:13:55.5484|INFO|MediaLibrary.Program|User choice: "2"
+2020-10-03 13:15:47.9680|INFO|MediaLibrary.Program|Program started
+2020-10-03 13:15:48.0685|ERROR|MediaLibrary.MovieFile|String 'unassigned,00:00:00' was not recognized as a valid TimeSpan.
+2020-10-03 13:15:51.8848|INFO|MediaLibrary.Program|User choice: "1"
+2020-10-03 13:16:42.5069|ERROR|MediaLibrary.MovieFile|The process cannot access the file 'C:\Users\kateb\OneDrive\Desktop\MediaLibrary\movies.scrubbed.csv' because it is being used by another process.
+2020-10-03 13:18:30.8604|INFO|MediaLibrary.Program|User choice: "2"
+2020-10-03 13:34:02.7000|INFO|MediaLibrary.Program|User choice: ""
+2020-10-03 13:34:02.7117|INFO|MediaLibrary.FileScrubber|File already scrubbed
+2020-10-03 13:34:02.7117|INFO|MediaLibrary.Program|movies.scrubbed.csv
+2020-10-03 13:34:02.7117|INFO|MediaLibrary.Program|Program ended
+2020-10-03 13:34:13.3472|INFO|MediaLibrary.Program|Program started
+2020-10-03 13:36:50.6016|INFO|MediaLibrary.Program|Program started
+2020-10-03 13:36:50.7189|INFO|MediaLibrary.MovieFile|Movies in file 9128
+2020-10-03 13:36:52.1238|INFO|MediaLibrary.Program|User choice: "2"
+2020-10-03 13:39:23.9713|INFO|MediaLibrary.Program|User choice: "1"
+2020-10-03 13:39:59.6058|INFO|MediaLibrary.MovieFile|Movie id 164983 added
+2020-10-03 13:40:04.3134|INFO|MediaLibrary.Program|User choice: "2"
+2020-10-03 14:07:56.5780|INFO|MediaLibrary.Program|User choice: ""
+2020-10-03 14:07:56.5923|INFO|MediaLibrary.FileScrubber|File already scrubbed
+2020-10-03 14:07:56.5923|INFO|MediaLibrary.Program|movies.scrubbed.csv
+2020-10-03 14:07:56.6010|INFO|MediaLibrary.Program|Program ended
+2020-10-03 14:08:08.4265|INFO|MediaLibrary.Program|Program started
+2020-10-03 14:08:08.5083|ERROR|MediaLibrary.MovieFile|Input string was not in a correct format.
+2020-10-03 14:08:53.3135|INFO|MediaLibrary.Program|User choice: "1"
+2020-10-03 14:10:43.5889|INFO|MediaLibrary.Program|Program started
+2020-10-03 14:10:43.7116|ERROR|MediaLibrary.MovieFile|Input string was not in a correct format.
+2020-10-03 14:10:44.9790|INFO|MediaLibrary.Program|User choice: "1"
+2020-10-03 14:11:12.9229|INFO|MediaLibrary.MovieFile|Movie id 164983 added
+2020-10-03 14:13:10.0289|INFO|MediaLibrary.Program|User choice: ""
+2020-10-03 14:13:10.0428|INFO|MediaLibrary.FileScrubber|File already scrubbed
+2020-10-03 14:13:10.0428|INFO|MediaLibrary.Program|movies.scrubbed.csv
+2020-10-03 14:13:10.0428|INFO|MediaLibrary.Program|Program ended
+2020-10-03 14:13:21.8385|INFO|MediaLibrary.Program|Program started
+2020-10-03 14:13:21.9285|ERROR|MediaLibrary.MovieFile|String 'Adventure|Comedy' was not recognized as a valid TimeSpan.
+2020-10-03 14:14:49.0805|INFO|MediaLibrary.Program|User choice: "2"
+2020-10-03 14:14:59.6529|INFO|MediaLibrary.Program|Program started
+2020-10-03 14:14:59.7237|ERROR|MediaLibrary.MovieFile|String 'Adventure|Comedy' was not recognized as a valid TimeSpan.
+2020-10-03 14:15:01.4932|INFO|MediaLibrary.Program|User choice: "1"
+2020-10-03 14:15:51.8543|INFO|MediaLibrary.MovieFile|Movie id 164983 added
+2020-10-03 14:18:44.0427|INFO|MediaLibrary.Program|User choice: "1"
+2020-10-03 14:20:41.6786|INFO|MediaLibrary.Program|Program started
+2020-10-03 14:20:41.7526|ERROR|MediaLibrary.MovieFile|String 'Adventure|Comedy' was not recognized as a valid TimeSpan.
+2020-10-03 14:21:06.0921|INFO|MediaLibrary.Program|User choice: ""
+2020-10-03 14:21:06.1187|INFO|MediaLibrary.FileScrubber|File already scrubbed
+2020-10-03 14:21:06.1187|INFO|MediaLibrary.Program|movies.scrubbed.csv
+2020-10-03 14:21:06.1187|INFO|MediaLibrary.Program|Program ended
+2020-10-03 14:21:12.2351|INFO|MediaLibrary.Program|Program started
+2020-10-03 14:21:12.3260|ERROR|MediaLibrary.MovieFile|String 'Adventure|Comedy' was not recognized as a valid TimeSpan.
+2020-10-03 14:21:14.2331|INFO|MediaLibrary.Program|User choice: "a"
+2020-10-03 14:21:14.2609|INFO|MediaLibrary.FileScrubber|File already scrubbed
+2020-10-03 14:21:14.2718|INFO|MediaLibrary.Program|movies.scrubbed.csv
+2020-10-03 14:21:14.2718|INFO|MediaLibrary.Program|Program ended
+2020-10-03 14:21:23.7096|INFO|MediaLibrary.Program|Program started
+2020-10-03 14:21:23.7809|ERROR|MediaLibrary.MovieFile|String 'Adventure|Comedy' was not recognized as a valid TimeSpan.
+2020-10-03 14:21:24.4106|INFO|MediaLibrary.Program|User choice: "1"
+2020-10-03 14:21:43.0816|INFO|MediaLibrary.MovieFile|Movie id 164983 added

@@ -126,14 +126,16 @@ namespace MediaLibrary
                         Console.WriteLine("Enter the Director: ");
                         movie.director = Console.ReadLine();
                         if(movie.director == ""){
-                            movie.director = "No Director Listed";
+                            movie.director = "unassigned";
                         
                         }
                         Console.WriteLine("Enter the Runtime: ");
-                        movie.runningTime = TimeSpan.Parse(Console.ReadLine());
-                        if(movie.runningTime == null){
+                        String runtime = Console.ReadLine();
+                        if(runtime  == ""){
                             movie.runningTime = new TimeSpan(0);
                         
+                        }else{
+                        movie.runningTime  = TimeSpan.Parse(string.Format(runtime));
                         }
                          // add movie
                         movieFile.AddMovie(movie);
