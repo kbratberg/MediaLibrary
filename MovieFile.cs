@@ -25,7 +25,7 @@ namespace MediaLibrary
             {
                 StreamReader sr = new StreamReader(filePath);
                 // first line contains column headers
-                sr.ReadLine();
+                
                 while (!sr.EndOfStream)
                 {
                     // create instance of Movie class
@@ -48,9 +48,9 @@ namespace MediaLibrary
                     }
                     else
                     {
-                        // quote = comma in movie title
+                         // quote = comma in movie title
                         // extract the movieId
-                        movie.mediaId = UInt64.Parse(line.Substring(0, cIdx));
+                        movie.mediaId = UInt64.Parse(line.Substring(0, qIdx - 1));
                         // remove movieId and first quote from string
                         line = line.Substring(qIdx + 1);
                         // find the next quote
@@ -59,12 +59,16 @@ namespace MediaLibrary
                         movie.title = line.Substring(0, qIdx);
                         // remove title and last comma from the string
                         line = line.Substring(qIdx + 2);
+                        cIdx = line.IndexOf(",");
+                        String genre = line.Substring(0, cIdx);
                         // replace the "|" with ", "
-                        string genre = line.Substring(0, cIdx);
                         movie.genres = genre.Split('|').ToList();
-                        movie.director = line.Substring(1, cIdx);
-                        movie.runningTime = TimeSpan.Parse(line.Substring(1, cIdx));
-                    }
+                        line = line.Substring(cIdx + 1);
+                         cIdx = line.IndexOf(",");
+                         movie.director = line.Substring(0, cIdx);
+                         line = line.Substring(cIdx + 1);
+                         movie.runningTime = TimeSpan.Parse(line.Substring(0, line.Length));
+                     }
                     Movies.Add(movie);
                 }
                 // close file when done
