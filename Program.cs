@@ -1,7 +1,7 @@
 ﻿using System;
 using NLog.Web;
 using System.IO;
-
+using System.Linq;
 namespace MediaLibrary
 {
     class Program
@@ -87,6 +87,7 @@ namespace MediaLibrary
                 // display choices to user
                 Console.WriteLine("1) Add Movie");
                 Console.WriteLine("2) Display All Movies");
+                Console.WriteLine("3) Search for a Movie");
                 Console.WriteLine("Enter to quit");
                 // input selection
                 choice = Console.ReadLine();
@@ -147,8 +148,19 @@ namespace MediaLibrary
                     {
                         Console.WriteLine(m.Display());
                     }
+                } else if (choice == "3"){
+
+                    
+                    Console.WriteLine("Enter the movie to search");
+                    String movieToSearch = Console.ReadLine();
+
+                    var Movies = movieFile.Movies.Where(m => m.title.Contains(movieToSearch));
+                    Console.WriteLine($"There are {Movies.Count()} movies with {movieToSearch} in the title");
+                    foreach(Movie m in Movies){
+                        Console.WriteLine($"{m.title}");
+                    }
                 }
-            } while (choice == "1" || choice == "2");
+            } while (choice == "1" || choice == "2" || choice == "3");
             string scrubbedFile = FileScrubber.ScrubMovies("movies.csv");
             logger.Info(scrubbedFile);
             logger.Info("Program ended");
