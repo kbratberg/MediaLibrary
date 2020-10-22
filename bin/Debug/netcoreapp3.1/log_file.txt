@@ -166,3 +166,14 @@
 2020-10-03 14:21:23.7809|ERROR|MediaLibrary.MovieFile|String 'Adventure|Comedy' was not recognized as a valid TimeSpan.
 2020-10-03 14:21:24.4106|INFO|MediaLibrary.Program|User choice: "1"
 2020-10-03 14:21:43.0816|INFO|MediaLibrary.MovieFile|Movie id 164983 added
+2020-10-03 14:30:00.6664|INFO|MediaLibrary.Program|User choice: ""
+2020-10-03 14:30:00.7061|INFO|MediaLibrary.FileScrubber|File already scrubbed
+2020-10-03 14:30:00.7170|INFO|MediaLibrary.Program|movies.scrubbed.csv
+2020-10-03 14:30:00.7170|INFO|MediaLibrary.Program|Program ended
+2020-10-21 19:04:55.6555|INFO|MediaLibrary.Program|Program started
+2020-10-21 19:04:55.7892|ERROR|MediaLibrary.MovieFile|String 'Adventure|Comedy' was not recognized as a valid TimeSpan.
+2020-10-21 19:04:58.0876|INFO|MediaLibrary.Program|User choice: "3"
+2020-10-21 19:05:26.9805|INFO|MediaLibrary.Program|User choice: ""
+2020-10-21 19:05:26.9899|INFO|MediaLibrary.FileScrubber|File already scrubbed
+2020-10-21 19:05:26.9964|INFO|MediaLibrary.Program|movies.scrubbed.csv
+2020-10-21 19:05:26.9964|INFO|MediaLibrary.Program|Program ended
